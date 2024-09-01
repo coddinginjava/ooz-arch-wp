@@ -1,0 +1,26 @@
+.desk-nav-main {
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    justify-content: space-between;
+
+    .desk-nav-main-right{
+        display: flex;
+        gap: 15px;
+        
+        img{
+            border-radius: 5px;
+        }
+    }
+
+    .desk-nav-main-left{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+    }
+}
