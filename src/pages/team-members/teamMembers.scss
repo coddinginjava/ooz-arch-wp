@@ -1,6 +1,41 @@
 .desk-tm-main{
-    padding-top: 150px;
+    background-color: gray;
+    height: 500vh;
+
+
+    .desk-tm-head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        position: sticky;
+    }
+}
+
+.desk-tm-container-1{
+    height: 100vh;
     position: sticky;
-    height: 300vh;
-    background-color: coral;
+    top: 0;
+    
+}
+
+.desk-tm-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.desk-tm-images{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-rows: 1fr;
+    padding: 0 4rem 0 4rem;
+    grid-gap: 3vw;
+}
+
+.desk-tm-card{
+    height: auto;
+    // width: clamp(10rem,50vw,60rem);
 }

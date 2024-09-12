@@ -10,6 +10,7 @@ export const MainPage = () => {
             <div className="desk-main-page" >
                 <About />
                 <TeamMembers />
+                <div style={{ height: '100vh', backgroundColor: 'lightcyan' }}></div>
             </div>
         </div>
     )

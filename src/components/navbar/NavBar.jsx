@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import logo from "@assets/logo.png"
+import logo from "../../assets/logo.jpg"
 import { Heading } from '@chakra-ui/react'
 
 export const NavBar = () => {

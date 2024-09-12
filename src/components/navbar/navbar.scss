@@ -1,11 +1,12 @@
 .desk-nav-main {
     background-color: pink;
-    position: sticky;
+    position: fixed;
     top: 0px;
-    
+    left: 0px;
+    width: 100%;
     display: flex;
     align-items: center;
-    padding: 15px 25px;
+    padding: 15px 100px;
     justify-content: space-between;
 
     .desk-nav-main-right{
