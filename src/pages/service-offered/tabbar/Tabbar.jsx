@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion";
 import './tabbar.scss'
-import { tab } from '@testing-library/user-event/dist/tab';
 
 const Tabbar = ({ tabs }) => {
     let [activeTab, setActiveTab] = useState(tabs[0].id);
@@ -13,7 +12,7 @@ const Tabbar = ({ tabs }) => {
                     <button
                         key={tab.id}
                         onClick={() => setActiveTab(tab.id)}
-                        className={` ${activeTab == tab.id ? '' : 'text-hover'} tab1`}
+                        className={` ${activeTab === tab.id ? '' : 'text-hover'} tab1`}
                     >
                         {activeTab === tab.id && (
                             <motion.div
